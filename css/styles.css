@@ -360,8 +360,8 @@ button {
   transition: background-color var(--transition-duration-and-func);
 }
 
-.social-list-item :hover,
-.social-list-item :focus {
+.social-list-link:hover,
+.social-list-link:focus {
   background-color: var(--accent-color);
 }
 .social-list-icon {
@@ -489,7 +489,7 @@ button {
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
-  background-color: ;
+  background-color: #ffffff;
 }
 .works-button {
   padding-top: 6px;
@@ -504,7 +504,8 @@ button {
   letter-spacing: 0.03em;
   background-color: #f5f4fa;
   color: var(--main-text-color-white-theme);
-  transition: background-color, color, box-shadow var(--transition-duration-and-func);
+  transition: background-color var(--transition-duration-and-func),
+    color var(--transition-duration-and-func), box-shadow var(--transition-duration-and-func);
 }
 .card-title-portfolio {
   font-size: 16px;
@@ -569,6 +570,9 @@ button {
 .portfolio-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+/* ==================SUBSCRIPTION================ */
+.footer-subscr-title {
 }
 /* =================MODAL WINDOW================= */
 .backdrop {
