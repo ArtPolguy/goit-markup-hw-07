@@ -613,6 +613,11 @@ button {
   width: 30px;
   height: 30px;
   border-radius: 50%;
+  transition: fill var(--transition-duration-and-func);
+}
+.modal-close-button:hover,
+.modal-close-button:focus {
+  fill: var(--accent-color);
 }
 
 /* =================/MODAL WINOW================== */
@@ -622,6 +627,7 @@ button {
   flex-direction: column;
 }
 .modal-form-title {
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
@@ -639,7 +645,6 @@ button {
 }
 .modal-form-label-name {
   display: block;
-  margin-bottom: 4px;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.67;
@@ -691,6 +696,7 @@ button {
 .modal-form-descr::before {
   content: '';
   display: block;
+  margin-right: 9px;
   width: 16px;
   height: 16px;
   border: solid 2px;
@@ -709,17 +715,43 @@ button {
 .modal-form-check:focus + .modal-form-descr::before {
   background-color: var(--accent-color);
   border-color: var(--accent-color);
-  /* background-image: url(../images/modal/check.svg);
+  background-image: url(../images/modal/check.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: 50% 50%; */
+  background-position: 50% 50%;
 }
-.modal-form-descr,
-.modal-form-contract-descr {
+.modal-form-descr {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
+}
+.modal-form-submit {
+  align-self: center;
+  padding-top: 10px;
+  padding-right: 22px;
+  padding-bottom: 10px;
+  padding-left: 22px;
+  min-width: 200px;
+  border-radius: 4px;
+  border: none;
+  display: block;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--main-text-color-dark-theme);
+  background-color: var(--accent-color);
+  transition: box-shadow var(--transition-duration-and-func);
+}
+
+.modal-form-submit:hover,
+.modal-form-submit:focus {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 /* =================/MODAL FORM==================== */ ;
