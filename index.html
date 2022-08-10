@@ -410,7 +410,7 @@
             </ul>
           </address>
         </div>
-        <div>
+        <div class="footer-container-social-links">
           <h3 class="title-social-list">Присоединяйтесь</h3>
           <ul class="social-list list">
             <li class="social-list-item">
@@ -444,16 +444,29 @@
           </ul>
         </div>
         <div class="footer-container-subscr" role="group" aria-labelledby="email-subscription">
-          <form>
-            <p class="footer-subscr-title title-social-list">Подпишитесь на рассылку</p>
-            <input class="footer-subscr-input" type="email" placeholder="E-mail" />
-            <button type="submit" class="footer-subscr-button"></button>
+          <p class="footer-subscr-title title-social-list">Подпишитесь на рассылку</p>
+          <form class="footer-form">
+            <input
+              class="footer-subscr-input"
+              type="email"
+              placeholder="E-mail"
+              name="user-email"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+            />
+            <button type="submit" class="footer-subscr-button">
+              <div class="footer-button-wrapper">
+                <span class="footer-subscr-name">Подписаться</span>
+                <svg class="footer-subscr-icon" width="24px" height="24px">
+                  <use href="./images/sprite.svg#icon-send"></use>
+                </svg>
+              </div>
+            </button>
           </form>
         </div>
       </div>
     </footer>
     <!-- MODAL WINDOW -->
-    <div class="backdrop" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-button" data-modal-close>
           <svg class="modal-close-icon" width="18px" height="18px">

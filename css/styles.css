@@ -410,6 +410,7 @@ button {
 .footer-container {
   display: flex;
   align-items: baseline;
+  justify-content: space-between;
 }
 .footer-container-adress {
   margin-right: 70px;
@@ -466,9 +467,37 @@ button {
   display: block;
   justify-content: ;
 }
+.footer-container-social-links {
+  margin-right: 93px;
+}
+.footer-subscr-input {
+  width: 360px;
+  height: 50px;
+  padding: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 0.6);
+  margin-right: 12px;
+}
+.footer-subscr-input:focus {
+  outline: none;
+}
 
+.footer-subscr-button {
+  width: 200px;
+  height: 50px;
+}
+.footer-form {
+  display: flex;
+  align-items: center;
+}
 /* ===================================/footer===================================== */
-/* portfolio */
+/* ==================================portfolio==================================== */
 .button-works-list {
   display: flex;
   justify-content: center;
@@ -571,9 +600,7 @@ button {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-/* ==================SUBSCRIPTION================ */
-.footer-subscr-title {
-}
+/* ==================================/portfolio==================================== */
 /* =================MODAL WINDOW================= */
 .backdrop {
   position: fixed;
@@ -619,7 +646,32 @@ button {
 .modal-close-button:focus {
   fill: var(--accent-color);
 }
-
+.footer-subscr-button {
+  padding-top: 10px;
+  padding-right: 28px;
+  padding-bottom: 10px;
+  padding-left: 28px;
+  min-width: 200px;
+  border-radius: 4px;
+  border: none;
+  display: block;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--main-text-color-dark-theme);
+  background-color: var(--accent-color);
+  transition: box-shadow var(--transition-duration-and-func);
+}
+.footer-button-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-subscr-name,
+.footer-subscr-icon {
+  display: block;
+}
 /* =================/MODAL WINOW================== */
 /* =================MODAL FORM==================== */
 .modal-form {
@@ -753,5 +805,12 @@ button {
 .modal-form-submit:hover,
 .modal-form-submit:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.modal-form-contract-descr {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
 }
 /* =================/MODAL FORM==================== */ ;
