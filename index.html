@@ -444,7 +444,9 @@
           </ul>
         </div>
         <div class="footer-container-subscr" role="group" aria-labelledby="email-subscription">
-          <p class="footer-subscr-title title-social-list">Подпишитесь на рассылку</p>
+          <p id="email-subscription" class="footer-subscr-title title-social-list">
+            Подпишитесь на рассылку
+          </p>
           <form class="footer-form">
             <input
               class="footer-subscr-input"
@@ -454,12 +456,12 @@
               pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
             />
             <button type="submit" class="footer-subscr-button">
-              <div class="footer-button-wrapper">
+              <span class="footer-button-wrapper">
                 <span class="footer-subscr-name">Подписаться</span>
                 <svg class="footer-subscr-icon" width="24px" height="24px">
                   <use href="./images/sprite.svg#icon-send"></use>
                 </svg>
-              </div>
+              </span>
             </button>
           </form>
         </div>
@@ -475,7 +477,7 @@
         </button>
         <p class="modal-form-title">Оставьте свои данные, мы вам перезвоним</p>
         <form class="modal-form">
-          <label for="" class="modal-form-label">
+          <label class="modal-form-label">
             <span class="modal-form-label-name">Имя</span>
             <span class="modal-form-input-container">
               <input
@@ -490,7 +492,7 @@
               </svg>
             </span>
           </label>
-          <label for="" class="modal-form-label">
+          <label class="modal-form-label">
             <span class="modal-form-label-name">Телефон</span>
             <span class="modal-form-input-container">
               <input
@@ -505,7 +507,7 @@
               </svg>
             </span>
           </label>
-          <label for="" class="modal-form-label">
+          <label class="modal-form-label">
             <span class="modal-form-label-name">Почта</span>
             <span class="modal-form-input-container">
               <input
