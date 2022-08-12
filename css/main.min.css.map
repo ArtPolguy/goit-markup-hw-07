@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"main.min.css"}
+{"version":3,"sourceRoot":"","sources":["../sass/utills/_variables.scss"],"names":[],"mappings":"AAAA,MACE,qCACA,wCACA,sCACA,uCACA,4CACA,wBACA,iCACA","file":"main.min.css"}
