@@ -4,9 +4,7 @@
   justify-content: space-between;
 }
 .advantages-item-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %align;
   height: 120px;
   background-color: #f5f4fa;
   border-radius: 4px;

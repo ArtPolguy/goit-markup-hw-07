@@ -22,6 +22,12 @@
   overflow: hidden;
 }
 
+.clients-list-link, .social-list-link, .occupation-name, .advantages-item-container, .modal-close-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 h1,
 h2,
 h3,
@@ -121,15 +127,15 @@ button {
   position: absolute;
   top: 8px;
   right: 8px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: transparent;
   border: 1px solid rgba(0, 0, 0, 0.1);
   width: 30px;
   height: 30px;
   border-radius: 50%;
   transition: fill var(--transition-duration-and-func);
+}
+.modal-close-button:hover, .modal-close-button:focus {
+  fill: var(--accent-color);
 }
 
 .modal-form {
@@ -142,8 +148,8 @@ button {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   color: #212121;
 }
 
@@ -225,8 +231,9 @@ button {
   color: #757575;
 }
 .modal-form-descr::before {
-  content: "";
   display: block;
+  position: relative;
+  content: "";
   margin-right: 9px;
   width: 16px;
   height: 16px;
@@ -421,9 +428,6 @@ button {
 }
 
 .advantages-item-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 120px;
   background-color: #f5f4fa;
   border-radius: 4px;
@@ -496,9 +500,6 @@ button {
 
 .occupation-name {
   position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -549,9 +550,6 @@ button {
 }
 
 .social-list-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -578,9 +576,6 @@ button {
 }
 
 .clients-list-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;

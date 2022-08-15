@@ -19,9 +19,7 @@
 }
 .occupation-name {
   position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %align;
   left: 0;
   bottom: 0;
   width: 100%;
