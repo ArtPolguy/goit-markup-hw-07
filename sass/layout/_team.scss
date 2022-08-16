@@ -12,10 +12,11 @@
 }
 .colleagues-name {
   margin-bottom: 10px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+  @include font(500, 16px, 1.19);
+  // font-weight: 500;
+  // font-size: 16px;
+  // line-height: 1.19;
+  // letter-spacing: 0.03em;
   color: var(--main-text-color-white-theme);
 }
 .team-item {

@@ -20,11 +20,12 @@
   width: 700px;
   margin-left: auto;
   margin-right: auto;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.5;
+  @include font(900, 44px, 1.5, 0.06em);
+  // font-weight: 900;
+  // font-size: 44px;
+  // line-height: 1.5;
+  // letter-spacing: 0.06em;
   text-align: center;
-  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-text-color-dark-theme);
 }
@@ -35,17 +36,19 @@
 
 .advantages-name {
   margin-bottom: 10px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  @include font(700, 14px, 1.14);
+  // font-weight: 700;
+  // font-size: 14px;
+  // line-height: 1.14;
+  // letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-text-color-white-theme);
 }
 .advantages-descrp {
   min-width: 270px;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  @include font($fs: 14px, $lh: 1.71);
+  // font-size: 14px;
+  // line-height: 1.71;
+  // letter-spacing: 0.03em;
   color: var(--secondary-text-color-white-theme);
 }
