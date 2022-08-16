@@ -5,10 +5,6 @@
 .modal-form-title {
   margin-bottom: 10px;
   @include font(700, 20px, 1.15);
-  // font-weight: 700;
-  // font-size: 20px;
-  // line-height: 1.15;
-  // letter-spacing: 0.03em;
   text-align: center;
   color: #212121;
 }
@@ -30,10 +26,6 @@
   @include font($ls: 0.01em);
   color: #757575;
   margin-bottom: 4px;
-  // font-weight: 400;
-  // font-size: 12px;
-  // line-height: 1.17;
-  // letter-spacing: 0.01em;
 }
 .modal-form-label:not(:nth-child(4)) {
   margin-bottom: 10px;
@@ -73,10 +65,6 @@
     font-style: normal;
     @include font($ls: 0.01em);
     color: rgba(117, 117, 117, 0.5);
-    // font-weight: 400;
-    // font-size: 12px;
-    // line-height: 1.17;
-    // letter-spacing: 0.01em;
   }
 }
 
@@ -87,15 +75,9 @@
   margin-bottom: 30px;
   @include font(400, 14px, 1.71);
   color: #757575;
-  // font-weight: 400;
-  // font-size: 14px;
-  // line-height: 1.71;
-  // letter-spacing: 0.03em;
 
   &::before {
     @include pseudo($position: relative);
-    // content: '';
-    // display: block;
     margin-right: 9px;
     width: 16px;
     height: 16px;
@@ -128,10 +110,6 @@
   border: none;
   display: block;
   @include font(700, 16px, 1.88, 0.06em);
-  // font-weight: 700;
-  // font-size: 16px;
-  // line-height: 1.88;
-  // letter-spacing: 0.06em;
   color: var(--main-text-color-dark-theme);
   background-color: var(--accent-color);
   transition: box-shadow var(--transition-duration-and-func);
@@ -144,9 +122,5 @@
 
 .modal-form-contract-descr {
   @include font(400, 14px, 1.71);
-  // font-weight: 400;
-  // font-size: 14px;
-  // line-height: 1.71;
-  // letter-spacing: 0.03em;
   color: var(--accent-color);
 }

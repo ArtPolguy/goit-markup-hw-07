@@ -15,9 +15,6 @@
 .logo-footer {
   font-family: var(--secondary-font);
   @include font(700, 26px, 1.2);
-  // font-weight: 700;
-  // font-size: 26px;
-  // line-height: 1.2;
   color: var(--main-text-color-dark-theme);
 }
 .contacts {
@@ -30,9 +27,6 @@
 
 .contact-footer {
   @include font($fs: 14px, $lh: 1.7);
-  // font-size: 14px;
-  // line-height: 1.7;
-  // letter-spacing: 0.03em;
   color: var(--main-text-color-dark-theme);
 }
 .contact-address {
@@ -51,10 +45,6 @@
 .title-social-list {
   margin-bottom: 20px;
   @include font(700, 14px, 1.14);
-  // font-weight: 700;
-  // font-size: 14px;
-  // line-height: 1.14;
-  // letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-text-color-dark-theme);
 }
@@ -73,9 +63,6 @@
   border-radius: 4px;
   background-color: transparent;
   @include font($fs: 16px, $lh: 1.25);
-  // font-weight: 400;
-  // font-size: 16px;
-  // line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
   margin-right: 12px;
 
@@ -103,10 +90,6 @@
   border: none;
   display: block;
   @include font(700, 16px, 1.88, 0.06em);
-  // font-weight: 700;
-  // font-size: 16px;
-  // line-height: 1.88;
-  // letter-spacing: 0.06em;
   color: var(--main-text-color-dark-theme);
   background-color: var(--accent-color);
   transition: box-shadow var(--transition-duration-and-func);
