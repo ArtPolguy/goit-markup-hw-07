@@ -4,7 +4,7 @@
   border-bottom: 1px solid #ececec83;
 }
 
-.page-header_container {
+.page-header__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -64,7 +64,7 @@
   @include font(500, 14px, 1.14, 0.02em);
   color: var(--secondary-text-color-white-theme);
 }
-.contact-item {
+.contact-header__item {
   display: flex;
   align-items: center;
   transition: color var(--transition-duration-and-func);
@@ -75,13 +75,13 @@
     color: var(--accent-color);
   }
 }
-.contact-item__icon {
+.contact-header__icon {
   margin-right: 10px;
   fill: var(--secondary-text-color-white-theme);
   transition: fill var(--transition-duration-and-func);
 
-  .contact-item:hover &,
-  .contact-item:focus & {
+  .contact-header__item:hover &,
+  .contact-header__item:focus & {
     fill: var(--accent-color);
   }
 }
